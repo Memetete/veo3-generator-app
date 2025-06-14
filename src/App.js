@@ -297,7 +297,7 @@ const App = () => {
                     </div>
                     {/* Text-to-Speech input (full width on md and above) */}
                     <div className="md:col-span-2 flex flex-col">
-                        <label htmlFor="textToSpeech" className="text-lg font-semibold text-gray-300 mb-2">Teks untuk Pidato (opsional):</label>
+                        <label htmlFor="textToSpeech" className="text-lg font-semibold text-gray-300 mb-2">kata yang ingin diucapkan (opsional):</label>
                         <textarea
                             id="textToSpeech"
                             className="w-full p-3 border border-purple-600 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent transition duration-200 resize-y min-h-[60px] bg-gray-700 text-white placeholder-gray-400"
